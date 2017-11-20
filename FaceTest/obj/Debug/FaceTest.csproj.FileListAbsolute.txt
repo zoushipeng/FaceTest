@@ -1,0 +1,42 @@
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\FaceTest.exe.config
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\FaceTest.exe
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\FaceTest.pdb
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.dll
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\log4net.dll
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.pdb
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.xml
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\bin\Debug\log4net.xml
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\obj\Debug\FaceTest.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\obj\Debug\FaceTest.Form1.resources
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\obj\Debug\FaceTest.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\obj\Debug\FaceTest.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\obj\Debug\FaceTest.exe
+c:\users\dell\documents\visual studio 2017\Projects\FaceTest\FaceTest\obj\Debug\FaceTest.pdb
+E:\projects\face\FaceTest\FaceTest\bin\Debug\FaceTest.exe.config
+E:\projects\face\FaceTest\FaceTest\bin\Debug\FaceTest.exe
+E:\projects\face\FaceTest\FaceTest\bin\Debug\FaceTest.pdb
+E:\projects\face\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.dll
+E:\projects\face\FaceTest\FaceTest\bin\Debug\log4net.dll
+E:\projects\face\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.pdb
+E:\projects\face\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.xml
+E:\projects\face\FaceTest\FaceTest\bin\Debug\log4net.xml
+E:\projects\face\FaceTest\FaceTest\obj\Debug\FaceTest.csprojResolveAssemblyReference.cache
+E:\projects\face\FaceTest\FaceTest\obj\Debug\FaceTest.Form1.resources
+E:\projects\face\FaceTest\FaceTest\obj\Debug\FaceTest.Properties.Resources.resources
+E:\projects\face\FaceTest\FaceTest\obj\Debug\FaceTest.csproj.GenerateResource.Cache
+E:\projects\face\FaceTest\FaceTest\obj\Debug\FaceTest.exe
+E:\projects\face\FaceTest\FaceTest\obj\Debug\FaceTest.pdb
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\FaceTest.exe.config
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\FaceTest.exe
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\FaceTest.pdb
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.dll
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\log4net.dll
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.pdb
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\OneCardSystem.Recognizer.xml
+E:\projects\face\人证系统\FaceTest\FaceTest\bin\Debug\log4net.xml
+E:\projects\face\人证系统\FaceTest\FaceTest\obj\Debug\FaceTest.csprojResolveAssemblyReference.cache
+E:\projects\face\人证系统\FaceTest\FaceTest\obj\Debug\FaceTest.Form1.resources
+E:\projects\face\人证系统\FaceTest\FaceTest\obj\Debug\FaceTest.Properties.Resources.resources
+E:\projects\face\人证系统\FaceTest\FaceTest\obj\Debug\FaceTest.csproj.GenerateResource.Cache
+E:\projects\face\人证系统\FaceTest\FaceTest\obj\Debug\FaceTest.exe
+E:\projects\face\人证系统\FaceTest\FaceTest\obj\Debug\FaceTest.pdb

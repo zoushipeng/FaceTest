@@ -1,0 +1,18 @@
+E:\projects\face\人证系统\CertificationVerify_E7_v5\Debug\OneCardSystem.Recognizer.XML
+E:\projects\face\人证系统\CertificationVerify_E7_v5\Debug\OneCardSystem.Recognizer.dll
+E:\projects\face\人证系统\CertificationVerify_E7_v5\Debug\OneCardSystem.Recognizer.pdb
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.dll
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.pdb
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\Visual Studio 2017\Projects\FaceTest\Debug\OneCardSystem.Recognizer.XML
+C:\Users\dell\Documents\Visual Studio 2017\Projects\FaceTest\Debug\OneCardSystem.Recognizer.dll
+C:\Users\dell\Documents\Visual Studio 2017\Projects\FaceTest\Debug\OneCardSystem.Recognizer.pdb
+C:\Users\dell\Documents\Visual Studio 2017\Projects\FaceTest\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\Visual Studio 2017\Projects\FaceTest\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.dll
+C:\Users\dell\Documents\Visual Studio 2017\Projects\FaceTest\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.pdb
+E:\projects\face\FaceTest\Debug\OneCardSystem.Recognizer.XML
+E:\projects\face\FaceTest\Debug\OneCardSystem.Recognizer.dll
+E:\projects\face\FaceTest\Debug\OneCardSystem.Recognizer.pdb
+E:\projects\face\FaceTest\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.csprojResolveAssemblyReference.cache
+E:\projects\face\FaceTest\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.dll
+E:\projects\face\FaceTest\OneCardSystem.Recognizer\obj\Debug\OneCardSystem.Recognizer.pdb

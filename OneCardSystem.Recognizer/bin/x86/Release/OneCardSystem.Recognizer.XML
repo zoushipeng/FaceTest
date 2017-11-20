@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OneCardSystem.Recognizer</name>
+    </assembly>
+    <members>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFD_FSDK_InitialFaceEngine(System.String,System.String,System.IntPtr,System.Int32,System.IntPtr@,System.Int32,System.Int32,System.Int32)">
+            初始化人脸检测引擎
+            @return 初始化人脸检测引擎
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFD_FSDK_GetVersion(System.IntPtr)">
+            获取人脸检测 SDK 版本信息
+            @return 获取人脸检测SDK 版本信息
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFD_FSDK_StillImageFaceDetection(System.IntPtr,System.IntPtr,System.IntPtr@)">
+            根据输入的图像检测出人脸位置，一般用于静态图像检测
+            @return 人脸位置
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFR_FSDK_InitialEngine(System.String,System.String,System.IntPtr,System.Int32,System.IntPtr@)">
+            初始化人脸识别引擎
+            @return 初始化人脸识别引擎
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFR_FSDK_GetVersion(System.IntPtr)">
+            获取人脸识别SDK 版本信息
+            @return 获取人脸识别SDK 版本信息
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFR_FSDK_ExtractFRFeature(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)">
+            提取人脸特征
+            @return 提取人脸特征
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFR_FSDK_FacePairMatching(System.IntPtr,System.IntPtr,System.IntPtr,System.Single@)">
+            获取相似度
+            @return 获取相似度
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFT_FSDK_InitialFaceEngine(System.String,System.String,System.IntPtr,System.Int32,System.IntPtr@,System.Int32,System.Int32,System.Int32)">
+            初始化人脸跟踪引擎
+            @return 初始化人脸跟踪引擎
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFT_FSDK_GetVersion(System.IntPtr)">
+            获取人脸跟踪SDK 版本信息
+            @return 获取人脸跟踪SDK 版本信息
+        </member>
+        <member name="M:OneCardSystem.Recognizer.AmFaceVerify.AFT_FSDK_FaceFeatureDetect(System.IntPtr,System.IntPtr,System.IntPtr@)">
+            人脸跟踪、检测人脸
+            @return 返回检测到的人脸坐标
+        </member>
+        <member name="T:OneCardSystem.Recognizer.Common.OrientCode">
+            <summary>
+                用于检测结果的角度范围编码
+            </summary>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.Common.OrientPriority">
+            <summary>
+                脸部角度的检测范围
+            </summary>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.Common.SdkVersion">
+            <summary>
+                人脸检测库版本信息
+            </summary>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.Common.ErrorCode">
+            <summary>
+                错误代码
+            </summary>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.PictureHelper.WriteBMP(System.Byte[],System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            将转换后的 RGB 图像数据按照 BMP 格式写入文件。
+            </summary>
+            <param name="rgbFrame">RGB 格式图像数据。</param>
+            <param name="width">图像宽（单位：像素）。</param>
+            <param name="height">图像高（单位：像素）。</param>
+            <param name="bmpFile"> BMP 文件名。</param>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.Extensions.BitmapExtensions.ConvertToRgb24(System.Drawing.Bitmap)">
+            <summary>
+                将图像转换为RGB图像
+            </summary>
+            <param name="self"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.Extensions.BitmapExtensions.GetBitmapData(System.Drawing.Bitmap,System.Boolean)">
+            <summary>
+                获取位图数据的像素数据
+            </summary>
+            <param name="self"></param>
+            <param name="useNativePixelFormat"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.FaceDetectInfo">
+            <summary>
+            人脸检测返回模型
+            </summary>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.FaceRectInfo">
+            <summary>
+            人脸坐标
+            </summary>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.POINT">
+            <summary>
+            坐标点
+            </summary>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.FacePointInfo">
+            <summary>
+            人脸特征点
+            </summary>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.GFaceSdk.GFace6_GetFea(System.Int32,System.Byte[],System.Int32,System.Int32,System.Int32,OneCardSystem.Recognizer.FacePointInfo[],System.IntPtr)">
+            <summary>
+            特征提取
+            </summary>
+            <param name="nThreadID"></param>
+            <param name="pGrayBuf"></param>
+            <param name="nWidth"></param>
+            <param name="nHeight"></param>
+            <param name="FaceRect"></param>
+            <param name="ptrFea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.GFaceSdk.init(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.GFaceSdk.unInit">
+            <summary>
+            卸载
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.GFaceSdk.detectface(System.IntPtr,System.Int32,System.Int32,System.IntPtr)">
+            <summary>
+            检测人脸
+            </summary>
+            <param name="pdata"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <param name="faceInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.IFaceRecognizer">
+            <summary>
+            人脸识别算法接口
+            </summary>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IFaceRecognizer.FaceDetect(System.Byte[],System.Int32,System.Int32,OneCardSystem.Recognizer.FaceRectInfo[]@,OneCardSystem.Recognizer.FacePointInfo[]@)">
+            <summary>
+            RGB检测人脸
+            </summary>
+            <param name="pGrayBuf">RGB图像数据</param>
+            <param name="nWidth"></param>
+            <param name="nHeight"></param>
+            <param name="rect"></param>
+            <param name="facePoint"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IFaceRecognizer.Face_GetFea(System.Byte[],System.Int32,System.Int32,System.Byte[]@)">
+            <summary>
+             RGB提取人脸特征
+            </summary>
+            <param name="files">RGB图像数据</param>      
+            <param name="nW"></param>
+            <param name="nH"></param>    
+            <param name="pFea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IFaceRecognizer.Face_DetectByFile(System.Byte[],System.Int32,System.Int32,OneCardSystem.Recognizer.FaceRectInfo[]@,OneCardSystem.Recognizer.FacePointInfo[]@)">
+            <summary>
+            直接通过图片检测人脸框
+            </summary>
+            <param name="files"></param>
+            <param name="nWidth"></param>
+            <param name="nHeight"></param>
+            <param name="rect"></param>
+            <param name="facePoint"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IFaceRecognizer.Face_GetFeaByFile(System.Byte[],System.Int32,System.Int32,System.Byte[]@)">
+            <summary>
+            直接提取图片的特征
+            </summary>
+            <param name="files"></param>
+            <param name="nW"></param>
+            <param name="nH"></param>
+            <param name="pFea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IFaceRecognizer.Compare(System.Byte[],System.Byte[])">
+            <summary>
+            图片特征比对
+            </summary>
+            <param name="pFea1"></param>
+            <param name="pFea2"></param>   
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.ImageGrayscaleSdk.GetRgb8ByName(System.String,System.IntPtr,System.Int32@,System.Int32@)">
+            <summary>
+            通过图片获取8位灰度图
+            </summary>
+            <param name="pFileName"></param>
+            <param name="pRgb8"></param>
+            <param name="pWidth"></param>
+            <param name="pHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.ImageGrayscaleSdk.GetRgb24ByName(System.String,System.IntPtr,System.Int32@,System.Int32@)">
+            <summary>
+            通过图片获取24位灰度图
+            </summary>
+            <param name="pFileName"></param>
+            <param name="pRgb24"></param>
+            <param name="pWidth"></param>
+            <param name="pHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.ImageGrayscaleSdk.GetRgb24FromBuffer(System.Byte[],System.Int32,System.IntPtr,System.Int32@,System.Int32@)">
+            <summary>
+            通过字节流获取24位灰度图
+            </summary>
+            <param name="m_Buffer"></param>
+            <param name="m_BufferSize"></param>
+            <param name="pRgb24"></param>
+            <param name="pWidth"></param>
+            <param name="pHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.ImageGrayscaleSdk.GetRgb8FromBuffer(System.Byte[],System.Int32,System.IntPtr,System.Int32@,System.Int32@)">
+            <summary>
+            通过字节流获取8位灰度图
+            </summary>
+            <param name="m_Buffer"></param>
+            <param name="m_BufferSize"></param>
+            <param name="pRgb8"></param>
+            <param name="pWidth"></param>
+            <param name="pHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IRecognizer.Init">
+            <summary>
+            初始化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IRecognizer.Uninit">
+            <summary>
+            反初始化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IRecognizer.GetVersion">
+            <summary>
+            获取版本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IRecognizer.CheckKey">
+            <summary>
+            检测是否存在
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.LogHelper">
+            <summary>
+            辅助测试类 现在主要用来写日志的
+            </summary>
+        </member>
+        <member name="F:OneCardSystem.Recognizer.LogHelper.m_strLogPath">
+            <summary>
+            日志文件路径
+            </summary>
+        </member>
+        <member name="F:OneCardSystem.Recognizer.LogHelper.m_strAppName">
+            <summary>
+            程序的名字
+            </summary>
+        </member>
+        <member name="F:OneCardSystem.Recognizer.LogHelper.m_lock">
+            <summary>
+            写日志的锁
+            </summary>
+        </member>
+        <member name="F:OneCardSystem.Recognizer.LogHelper._que">
+            <summary>
+            记录消息Queue
+            </summary>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.LogHelper.Register">
+            <summary>
+            另一个线程记录日志，只在程序初始化时调用一次
+            </summary>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.LogHelper.WriteLog(System.String,System.Boolean)">
+            <summary>
+            写日志
+            </summary>
+            <param name="strMsg">日志信息</param>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IZFaceRecognizer.CheckFaceNum(System.Byte[],System.Int32,System.Int32,OneCardSystem.Recognizer.RECT[]@)">
+            <summary>
+            通过8位灰度图获取人脸数
+            </summary>
+            <param name="bytRgb8"></param>
+            <param name="nWith"></param>
+            <param name="nHeight"></param>
+            <param name="rect"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.IZFaceRecognizer.Compare(System.String,System.String)">
+            <summary>
+            比对图片
+            </summary>
+            <param name="strFile1"></param>
+            <param name="strFile2"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OneCardSystem.Recognizer.ZFaceRecognizer">
+            <summary>
+            1对1对比
+            </summary>
+        </member>
+        <member name="M:OneCardSystem.Recognizer.ZFaceRecognizer.CheckFaceNum(System.Byte[],System.Int32,System.Int32,OneCardSystem.Recognizer.RECT[]@)">
+            <summary>
+            通过图片字节流获取人脸数
+            </summary>
+            <param name="bytRgb8"></param>
+            <param name="nWith"></param>
+            <param name="nHeight"></param>
+            <param name="rect"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceTest", "FaceTest\FaceTest.csproj", "{C9080A40-94EB-4004-8ECA-4575911FF42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCardSystem.Recognizer", "OneCardSystem.Recognizer\OneCardSystem.Recognizer.csproj", "{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Debug|x64.Build.0 = Debug|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Debug|x86.Build.0 = Debug|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Release|x64.ActiveCfg = Release|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Release|x64.Build.0 = Release|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9080A40-94EB-4004-8ECA-4575911FF42D}.Release|x86.Build.0 = Release|Any CPU
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Debug|x64.ActiveCfg = Debug|x64
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Debug|x64.Build.0 = Debug|x64
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Debug|x86.ActiveCfg = Debug|x86
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Debug|x86.Build.0 = Debug|x86
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Release|x64.ActiveCfg = Release|x64
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Release|x64.Build.0 = Release|x64
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Release|x86.ActiveCfg = Release|x86
+		{02BF7564-B9CE-4DE5-82EB-B1316E41BE55}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

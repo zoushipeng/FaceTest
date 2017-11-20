@@ -1,0 +1,8 @@
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\bin\x86\Release\OneCardSystem.Recognizer.dll
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\bin\x86\Release\OneCardSystem.Recognizer.pdb
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\bin\x86\Release\OneCardSystem.Recognizer.XML
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\bin\x86\Release\log4net.dll
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\bin\x86\Release\log4net.xml
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\obj\x86\Release\OneCardSystem.Recognizer.csprojResolveAssemblyReference.cache
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\obj\x86\Release\OneCardSystem.Recognizer.dll
+E:\projects\face\人证系统\CertificationVerify_E7_v5\OneCardSystem.Recognizer\obj\x86\Release\OneCardSystem.Recognizer.pdb
